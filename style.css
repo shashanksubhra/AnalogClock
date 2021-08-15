@@ -1,0 +1,55 @@
+
+#clockContainer{
+    position: relative;
+    /* margin: auto; */
+    margin:5vw 30vw;
+    height: 35vw;
+    width: 35vw;
+    background: url(clock.svg) no-repeat;
+
+}
+#hour, #minutes, #seconds{
+    position: absolute;
+    background: black;
+    border-radius: 20px;
+    transform-origin: bottom;
+    opacity: 0.8;
+
+}
+#clockName{
+    position: absolute;
+    font-size: 1.5vw;
+    top:22%;
+    left:33%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#date{
+    position: absolute;
+    font-size: 1vw;
+    top:26%;
+    left:39%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+#hour{
+    height: 25%;
+    width: 2%;
+    top: 25.5%;
+    left: 49.05%;
+}
+
+#minutes{
+    height: 30%;
+    width: 1.5%;
+    top: 20.5%;
+    left: 49.35%;
+}
+
+#seconds{
+    height: 40%;
+    width: 1%;
+    top: 10.5%;
+    left: 49.6%;
+}
